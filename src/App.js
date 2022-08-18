@@ -1,12 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
+import CustomButton from './components/customButton/CustomButton';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        Trainee Attendance
-      </header>
+        <CustomButton title= "Register" onClick={()=> console.log("clicked")}/>
+        <CustomButton title= "Confirm"/>
     </div>
   );
 }
