@@ -1,11 +1,10 @@
 import React from 'react'
 import './CustomButton.css';
 
-
-function CustomButton({title, width, height, borderRadius}) {
+function CustomButton({title, ...otherProps}){
   return (
-       <button style={{width:width,height:height, borderRadius:borderRadius}} className='Cusbutton'>{title}</button>
+    <button {...otherProps} className='buttons'>{title}</button>
   )
 }
+export default CustomButton;
 
-export default CustomButton

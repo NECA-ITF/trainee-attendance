@@ -1,14 +1,17 @@
-.Cusbutton{
-    background-color: red;
-    border: 1px solid red;
-    color: white;
-    box-shadow: -0.5px 0.5px 8px rgb(97, 93, 93), 0.5px -0.5px 8px rgb(97, 93, 93);
-    font-family: inter;
+
+.buttons {
+  color: white;
+  background-color: #FF3838;
+  padding: 1rem 1.5rem;
+  border-radius: 5px;
+  border: none;
+  width: 8rem;
+  margin: 1rem;
+  box-shadow: -0.5px 0.5px 8px gray,  0.5px -0.5px 8px gray;
 }
-.Cusbutton:hover{
-    background-color: whitesmoke;
-    border: 1px solid whitesmoke;
-    color: black;
-    transition: 1s ease ;
-    cursor: pointer;
+.buttons:hover {
+  background-color:#be8787;
+  cursor: pointer;
+  transition: 1s ease;
+  font-weight: bolder;
 }
