@@ -1,4 +1,13 @@
 .input{
     font-family: Inter;
-    padding: 0.5em;
+    border-radius: 3px;
+    width: 20rem;
+    padding: 1rem 1.2rem;
+    border: none;
+    border-bottom: 2px solid black;
+}
+::placeholder{
+    
+    font-size: 18px;
+    color: grey;
 }

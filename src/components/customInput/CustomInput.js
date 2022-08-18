@@ -1,10 +1,11 @@
-import React from 'react'
-import './CustomInput.css'
+import React from 'react';
+import './CustomInput.css';
 
-function CustomInput({placeholder, width, height, borderRadius}) {
+function CustomInput({placeholder, ...otherProps}) {
   return (
-      <input placeholder={placeholder} style={{width:width, height:height, borderRadius:borderRadius}} className="input"></input>
+    <input style={{...otherProps}} placeholder={placeholder} className='input'></input>
+
   )
 }
 
-export default CustomInput
+export default CustomInput;
