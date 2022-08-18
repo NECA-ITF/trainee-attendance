@@ -1,3 +1,4 @@
+import React from 'react'
 import './CustomButton.css';
 
 function CustomButton({title, ...otherProps}){
@@ -6,3 +7,4 @@ function CustomButton({title, ...otherProps}){
   )
 }
 export default CustomButton;
+
