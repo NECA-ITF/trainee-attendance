@@ -5,7 +5,9 @@ import RegisterPage from './pages/registerPage/RegisterPage';
 function App() {
   return (
     <div className="App">
-        <RegisterPage />
+      {/* <CustomButton title= "Register" onClick={()=> console.log("clicked")}/>
+      <CustomInput placeholder= "Email"/> */}
+      <RegisterPage/>
     </div>
   );
 }
