@@ -1,6 +1,7 @@
 import './Dashboard.css'
 import React from 'react'
 import AttendanceSlider from './AttendanceSlider'
+import AttendanceItem from './AttendanceItem'
 
 function Dashboard() {
   return (
@@ -8,6 +9,7 @@ function Dashboard() {
         {/* ebenizer */}
         {/* abdulwasiu */}
         <div className="dashboardContainer">
+            <AttendanceItem />
             <AttendanceSlider />
         </div>
     </div>
