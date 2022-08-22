@@ -1,0 +1,17 @@
+
+.attendance-slider{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.attendance-slider-cards{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+
+.angle{
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
