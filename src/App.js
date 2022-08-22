@@ -1,13 +1,14 @@
 import './App.css';
 // import CustomButton from './components/customButton/CustomButton';
 // import CustomInput from './components/customInput/CustomInput';
-import Homepage from './pages/homepage/Homepage';
+import RegisterPage from './pages/registerPage/RegisterPage';
 
 function App() {
   return (
     <div className="App">
-        
-        <Homepage />
+        {/* <CustomButton title= "Register" onClick={()=> console.log("clicked")}/>
+        <CustomInput placeholder= "Email"/> */}
+        <RegisterPage />
     </div>
   );
 }
