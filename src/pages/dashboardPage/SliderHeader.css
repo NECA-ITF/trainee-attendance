@@ -1,0 +1,20 @@
+
+.attend-slider-header{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+.attend-slider-header h2{
+    font-size: 0.9rem;
+    padding: 10px;
+}
+.attend-slider-header-left{
+    display: flex;
+    align-items: center;
+}
+.attend-header-month{
+    color: rgba(0, 0, 0, 0.45);
+}
