@@ -35,8 +35,8 @@ body{
 }
 
 #ProfilePicture{
-    width: 80px; 
-    margin-bottom: 10px;  
+    width: 80px;
+    margin-bottom: 10px;
 }
 
 .profilePicture h2{
@@ -75,3 +75,4 @@ body{
     font-size: 1.2rem;
     border: none;
 }
+
