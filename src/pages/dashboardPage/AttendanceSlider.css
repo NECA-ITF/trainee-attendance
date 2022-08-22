@@ -1,0 +1,13 @@
+
+
+.card-stats{
+    color: rgba(0, 0, 0, 0.49);
+    margin: 10px 0;
+}
+.confirmButton{
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 0;
+}
