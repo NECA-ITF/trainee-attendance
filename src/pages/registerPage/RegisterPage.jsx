@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import CustomButton from '../../components/customButton/CustomButton';
 import CustomInput from '../../components/customInput/CustomInput';
 import './RegisterPage.css'
@@ -12,8 +12,8 @@ function RegisterPage() {
           <div className='form-div'>
             <form action="" className='form'>
               <div className='logo-h1-div'>
-                <img src={logo} alt="logo" width={80}/>
-                <h2>INDUSTRIAL TRAINING FUND</h2>
+                <img src={logo} alt="logo" width={50}/>
+                <h4>INDUSTRIAL TRAINING FUND</h4>
               </div>
               <div className='avatar'>
                 <img src={avatar} alt="avatar" width={150}/>
