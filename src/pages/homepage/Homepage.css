@@ -2,14 +2,15 @@
         margin: auto;
         border: 0px solid rgb(4, 62, 219);
         background-image: url("../homepage/HomeAssets/red-trianglify-3c51d9e2.jpg");
-        background-size: 100%;
+        background-size: cover;
         background-repeat: no-repeat;
+        background-attachment: fixed;
 
 }
 
 .smallhome{
             margin: auto;
-            width: 40%;
+            width: 50%;
             height: 740px;
             display: flex;
             flex-direction: column;
@@ -35,5 +36,10 @@ img{
 
 .itfdiv, .asdiv{color: white;}
 
+.asdiv{
+        text-align: center;
+        width: 100%;
+        font-size: 21px;
+}
 
 
