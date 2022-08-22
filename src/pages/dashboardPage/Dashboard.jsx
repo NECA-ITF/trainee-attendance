@@ -1,9 +1,12 @@
 import './Dashboard.css'
 import React from 'react'
+import DashboardHeader from './DashboardHeader'
 
 function Dashboard() {
   return (
-    <div>Dashboard</div>
+    <div>
+      <DashboardHeader/>
+    </div>
   )
 }
 
