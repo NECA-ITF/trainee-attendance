@@ -9,8 +9,6 @@ function Dashboard() {
   return (
     <div>
       <DashboardHeader/>
-        {/* ebenizer */}
-        {/* abdulwasiu */}
         <div className="dashboardContainer">
             <AttendanceSlider />
             <AttendanceItems/>
