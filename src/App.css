@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css?family=Mukta');
 *{
   margin: 0;
   padding: 0;
@@ -6,8 +6,7 @@
 body{
   border: 1px solid darkcyan;
   box-sizing: border-box;
-  font-family:inter;
-  background-color: #f8f8f8;
+  font-family: 'Mukta', cursive;
 }
 
 /* .App {
