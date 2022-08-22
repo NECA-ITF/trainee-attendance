@@ -10,16 +10,19 @@
     align-items: center;
     width: auto;
     margin-top: 20px;
-    border-top: 1px solid #EBEBEB;
+    border-bottom: 1px solid #0a0a0a25;
     padding: 10px 0;
-  
+}
+.item{
+    width: 24%;
+    text-align: center;
 }
 .nameimage{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 .image{
     width: 50px;
-    margin-right: 8px;
+    margin-right: 10px;
 }

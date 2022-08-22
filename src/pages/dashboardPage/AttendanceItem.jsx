@@ -6,18 +6,20 @@ import itf_log from '../../images/itf_log.png'
 function AttendanceItem() {
   return (
     <div className='attenditem'>
-        <p className="serialnum">1</p>
-        <div className='nameimage' >
+        <p className="serialnum item">1</p>
+        <div className='nameimage item' >
             <img className='image' src={itf_log} alt=""/>
              <p>John Doe</p>
         </div>
-        <div className='dateday'>
+        <div className='dateday item'>
             <p>21/08/2022</p>
             <p>Sunday</p>
         </div>
-        <div className='logintime'>8:00am</div>
-        <div className='logout'>6:00pm</div>
-        <CustomButton title='view' background-color='white' color='red' border='1px solid red'/>
+        <div className='logintime item'>8:00am</div>
+        <div className='logout item'>6:00pm</div>
+        <div className="item">
+          <CustomButton title='view' background-color='white' color='red' border='1px solid red'/>
+        </div>
     </div>
     
   )

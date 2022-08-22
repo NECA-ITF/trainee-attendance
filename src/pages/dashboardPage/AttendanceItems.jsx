@@ -8,12 +8,12 @@ function AttendanceItems() {
           <div className='heading'><h4>Your Attendance List</h4></div>
           <div className='attendance-list'>
             <ul>
-              <li>Emp No:</li>
-              <li>Emp Name:</li>
-              <li>Date:</li>
-              <li>Login Time:</li>
-              <li>Logout Time:</li>
-              <li>Details:</li>
+              <li className='item'>Emp No:</li>
+              <li className='item'>Emp Name:</li>
+              <li className='item'>Date:</li>
+              <li className='item'>Login Time:</li>
+              <li className='item'>Logout Time:</li>
+              <li className='item'>Details:</li>
             </ul>
           </div>
           <div className="attendance-item">
