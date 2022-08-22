@@ -16,7 +16,7 @@ function WaitingPage() {
                 You have completed the first step of your registration go to the admin to complete your registration process, then click on login
                 </h2>
                 <div className="waiting-button">
-                    <CustomButton title='Login' borderRadius={0}/>
+                    <CustomButton title='Login' borderRadius={0} width={250} fontSize={20}/>
                 </div>
                 
             </div>
