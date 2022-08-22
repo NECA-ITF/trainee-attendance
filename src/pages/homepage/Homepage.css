@@ -1,0 +1,36 @@
+.bighome{
+        margin: auto;
+
+}
+
+.smallhome{padding: auto;
+            margin: auto;
+            width: 40%;
+            height: 450px;
+            border: 1px solid red;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 11%;
+            font-size: 25px;
+            
+
+}      
+
+.imgdiv{
+         width: 200px;
+         height: 200px;
+         border: 1px solid blue;
+
+}
+
+img{
+        width: 200px;
+        height: 200px;
+}
+
+button {
+        width: 200px;
+        height: 40px;
+}
