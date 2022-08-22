@@ -1,11 +1,11 @@
-
+@import url('https://fonts.googleapis.com/css?family=Mukta');
 *{
   margin: 0;
   padding: 0;
 }
 body{
   box-sizing: border-box;
-  font-family:inter;
+  font-family: 'Mukta', cursive;
   background-color: #f8f8f8;
 }
 
