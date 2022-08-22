@@ -1,10 +1,13 @@
-import './Dashboard.css'
-import React from 'react'
+import './Dashboard.css';
+import React from 'react';
+import AttendanceItems from './AttendanceItems';
 
 function Dashboard() {
   return (
-    <div>Dashboard</div>
+    <div>
+      <AttendanceItems/>
+    </div>
   )
 }
 
-export default Dashboard
+export default Dashboard;
