@@ -1,0 +1,45 @@
+.bighome{height: 934px ;
+        margin: auto;
+        border: 0px solid rgb(4, 62, 219);
+        background-image: url("../homepage/HomeAssets/red-trianglify-3c51d9e2.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+
+}
+
+.smallhome{
+            margin: auto;
+            width: 50%;
+            height: 740px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 25px;
+        
+            
+}      
+
+.imgdiv{
+        margin-top: 10%;
+         width: 360px;
+         height: 360px;
+        
+
+}
+
+img{
+        width: 360px;
+        height: 280px;
+}
+
+.itfdiv, .asdiv{color: white;}
+
+.asdiv{
+        text-align: center;
+        width: 100%;
+        font-size: 21px;
+}
+
+
