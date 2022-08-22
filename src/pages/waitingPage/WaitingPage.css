@@ -6,9 +6,12 @@
 }
 .waiting-head{
     padding-top: 2%;
+    max-width:100%;
+    /* border: 1px solid red; */
+    background-color: white;
 }
 .waiting-head img{
-    width: 100px;
+    width: 6%;
 }
 .waiting-flex{
     width: 80%;
