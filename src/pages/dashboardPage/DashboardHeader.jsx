@@ -3,7 +3,7 @@ import './DashboardHeader.css'
 import itf_logo from './resource/itf-logo.jpg'
 import logout from './resource/logout-32.png'
 import search from './resource/Search Icon.png'
-import details from './resource/Screenshot 2022-08-21 171922.png'
+import details from './resource/Screenshot4.png'
 function DashboardHeader() {
   return (
     <div className = "header">
