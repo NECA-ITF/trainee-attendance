@@ -1,15 +1,16 @@
 import React from 'react'
 import './Homepage.css'
-// import itfLogo from "../../images/itf_log.png"
+import itfLogo from "../homepage/HomeAssets/itf-logo-removebg-preview.png"
+// import itfbackground from ""
 import CustomButton from '../../components/customButton/CustomButton'
 
 
 function Homepage() {
   return (
     <div className='bighome'>
-      <h2>homepage</h2>
+      {/* <h2>homepage</h2> */}
          <div className='smallhome'>
-               {/* <div className='imgdiv'><img src={} alt='logo'/></div> */}
+               <div className='imgdiv'><img src={itfLogo} alt='logo'/></div>
                   <div className='itfdiv'><h1>ITFAS</h1></div>
                   <div className='asdiv'><h2>Simple Easy to use ITF Attendance software</h2></div>
                   <div className='logdiv'>
