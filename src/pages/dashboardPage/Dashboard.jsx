@@ -1,7 +1,7 @@
 import './Dashboard.css'
 import React from 'react'
 import AttendanceSlider from './AttendanceSlider'
-import AttendanceItem from './AttendanceItem'
+import AttendanceItems from './AttendanceItems'
 
 function Dashboard() {
   return (
@@ -9,11 +9,11 @@ function Dashboard() {
         {/* ebenizer */}
         {/* abdulwasiu */}
         <div className="dashboardContainer">
-            <AttendanceItem />
             <AttendanceSlider />
+            <AttendanceItems/>
         </div>
     </div>
   )
 }
 
-export default Dashboard
+export default Dashboard;
