@@ -18,7 +18,7 @@ function AttendanceItem() {
         <div className='logintime item'>8:00am</div>
         <div className='logout item'>6:00pm</div>
         <div className="item">
-          <CustomButton title='view' background-color='white' color='red' border='1px solid red'/>
+          <CustomButton title='view' background-color='white' color='red' border='1px solid red' boxShadow = 'none'/>
         </div>
     </div>
     
