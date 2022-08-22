@@ -1,0 +1,25 @@
+/* body{
+    margin: 10px;
+    background-color: black;
+    margin-left: 50px;
+    
+} */
+.attenditem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    margin-top: 20px;
+    border-top: 1px solid #EBEBEB;
+    padding: 10px 0;
+  
+}
+.nameimage{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.image{
+    width: 50px;
+    margin-right: 8px;
+}

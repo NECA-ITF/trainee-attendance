@@ -1,11 +1,17 @@
-import './Dashboard.css';
-import React from 'react';
-import AttendanceItems from './AttendanceItems';
+import './Dashboard.css'
+import React from 'react'
+import AttendanceSlider from './AttendanceSlider'
+import AttendanceItems from './AttendanceItems'
 
 function Dashboard() {
   return (
     <div>
-      <AttendanceItems/>
+        {/* ebenizer */}
+        {/* abdulwasiu */}
+        <div className="dashboardContainer">
+            <AttendanceSlider />
+            <AttendanceItems/>
+        </div>
     </div>
   )
 }

@@ -1,5 +1,6 @@
 import React from 'react'
 import "./AttendanceItems.css";
+import AttendanceItem from './AttendanceItem';
 function AttendanceItems() {
   return (
     <div className='attendance'>
@@ -14,6 +15,11 @@ function AttendanceItems() {
               <li>Logout Time:</li>
               <li>Details:</li>
             </ul>
+          </div>
+          <div className="attendance-item">
+            <AttendanceItem />
+            <AttendanceItem />
+            <AttendanceItem />
           </div>
           <div className='attendance-enteries'>
             <div className='enteries'>
