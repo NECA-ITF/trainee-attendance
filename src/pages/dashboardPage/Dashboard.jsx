@@ -7,7 +7,7 @@ import AttendanceItems from '../../components/dashBoard/AttendanceItems'
 
 function Dashboard() {
   return (
-    <div>
+    <div className='dashBoard'>
       <DashboardHeader/>
         <div className="dashboardContainer">
             <AttendanceSlider />

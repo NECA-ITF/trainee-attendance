@@ -1,6 +1,6 @@
 import React from 'react'
 import './Homepage.css'
-import itfLogo from "../homepage/HomeAssets/itf-logo-removebg-preview.png"
+import itfLogo from "../../assets/images/log.png"
 import CustomButton from '../../components/customButton/CustomButton'
 
 
