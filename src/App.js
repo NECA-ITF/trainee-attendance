@@ -1,5 +1,5 @@
 import './App.css';
-import ProfilePage from './pages/profilePage/profilePage/ProfilePage';
+import ProfilePage from './pages/profilePage/ProfilePage';
 // import CustomButton from './components/customButton/CustomButton';
 // import CustomInput from './components/customInput/CustomInput';
 

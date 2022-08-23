@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import template from '../../../images/template.jpg'
+import template from '../../../assets/images/template.jpg'
 import "./ProfileImage.css"
 
 export default class ProfileImage extends Component {

@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
-import ProfileDetails from '../profileDetails/ProfileDetails'
-import ProfileImage from '../profileImage/ProfileImage'
+import ProfileDetails from '../../components/profilePage/profileDetails/ProfileDetails'
+import ProfileImage from '../../components/profilePage/profileImage/ProfileImage'
 import './ProfilePage.css'
-import CustomButton from '../../../components/customButton/CustomButton'
+import CustomButton from '../../components/customButton/CustomButton'
 
 export default class ProfilePage extends Component {
   render() {

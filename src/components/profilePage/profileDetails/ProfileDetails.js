@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 import "./ProfileDetails.css"
-import phone from '../../../images/pngs/phone.png'
-import mail from '../../../images/pngs/mail.png'
-import profile from '../../../images/pngs/profile.png'
-import lock from '../../../images/pngs/lock.png'
+import phone from '../../../assets/images/phone.png'
+import mail from '../../../assets/images/mail.png'
+import profile from '../../../assets/images/profile.png'
+import lock from '../../../assets/images/lock.png'
 
 export default class ProfileDetails extends Component {
   render() {
