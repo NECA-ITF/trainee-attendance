@@ -1,9 +1,9 @@
 import React from 'react'
 import './DashboardHeader.css'
-import itf_logo from './resource/itf-logo.jpg'
-import logout from './resource/logout-32.png'
-import search from './resource/Search Icon.png'
-import details from './resource/Screenshot4.png'
+import itf_logo from '../../assets/images/itf-logo.jpg'
+import logout from '../../assets/images/logout-32.png'
+import search from '../../assets/images/Search Icon.png'
+import details from '../../assets/images/Screenshot4.png'
 function DashboardHeader() {
   return (
     <div className = "header">

@@ -1,6 +1,6 @@
 import React from 'react'
 import './AttendanceSlider.css'
-import CustomButton from '../../components/customButton/CustomButton'
+import CustomButton from '../customButton/CustomButton'
 import SliderHeader from './SliderHeader'
 import SliderBody from './SliderBody'
 function AttendanceSlider() {

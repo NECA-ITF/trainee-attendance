@@ -1,8 +1,8 @@
 import './Dashboard.css'
 import React from 'react'
-import DashboardHeader from './DashboardHeader'
-import AttendanceSlider from './AttendanceSlider'
-import AttendanceItems from './AttendanceItems'
+import DashboardHeader from '../../components/dashBoard/DashboardHeader'
+import AttendanceSlider from '../../components/dashBoard/AttendanceSlider'
+import AttendanceItems from '../../components/dashBoard/AttendanceItems'
 
 
 function Dashboard() {

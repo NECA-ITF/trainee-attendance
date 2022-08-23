@@ -1,9 +1,8 @@
 import React from 'react'
 import './SliderCard.css'
-import image1 from './resource/Screenshot1.png'
-// import image3 from './resource/Screenshot3.png'
-// import image4 from './resource/Screenshot4.png'
-import CustomButton from '../../components/customButton/CustomButton'
+import image1 from '../../assets/images//Screenshot1.png'
+
+import CustomButton from '../customButton/CustomButton'
 function SliderCard() {
   return (
         <div className="card">
