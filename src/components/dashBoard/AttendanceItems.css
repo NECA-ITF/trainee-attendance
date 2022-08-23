@@ -1,0 +1,64 @@
+.attendance{
+    border-radius: 10px;
+    margin-bottom: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.13);
+}
+.attendance-heading {
+    width: 90%;
+    margin: auto;
+    padding-top: 2rem;
+}
+.heading {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.attendance-list ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 2rem;
+    color: gray;
+    border-bottom: 1px solid gray;
+    padding: 10px 0;
+}
+.item{
+    width: 24%;
+    text-align: center;
+}
+.attendance-enteries {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+.enteries ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 100%;
+    margin: 0 auto;
+}
+.enteries li {
+    margin-right: .5rem;
+}
+.arrow ul {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    margin: 0 auto; 
+    border: 1px solid red;
+    color: red;
+}
+.arrow li {
+    margin: .2rem .6rem;
+
+}
+.enteries span {
+    border: 1px solid red;
+    padding: .2rem 1.2rem;
+}
