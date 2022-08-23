@@ -1,6 +1,6 @@
 import React from 'react'
 import './SliderBody.css'
-import SliderCard from './SliderCard'
+import SliderCard from '../SliderCard/SliderCard'
 function SliderBody() {
   return (
     <div className="attendance-slider">
