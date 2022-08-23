@@ -1,9 +1,14 @@
 import './App.css';
-import Dashboard from './pages/dashboardPage/Dashboard'
+import ProfilePage from './pages/profilePage/profilePage/ProfilePage';
+// import CustomButton from './components/customButton/CustomButton';
+// import CustomInput from './components/customInput/CustomInput';
+
 function App() {
   return (
     <div className="App">
-      <Dashboard />
+        {/* <CustomButton title= "Register" onClick={()=> console.log("clicked")}/>
+        <CustomInput placeholder= "Email"/> */}
+        <ProfilePage/>
     </div>
   );
 }

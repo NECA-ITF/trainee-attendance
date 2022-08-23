@@ -1,0 +1,11 @@
+#Myprofile{
+    text-align: center;
+}
+#Oflex{
+    display: flex;
+    justify-content: center;
+}
+#Oflex img {
+    border-radius: 50%;
+    object-fit: cover;
+}

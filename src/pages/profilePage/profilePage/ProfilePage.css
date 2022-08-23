@@ -1,0 +1,18 @@
+#profileFlex{
+    display: flex;
+    justify-content: center;
+}
+#profilecontainer{
+    margin-top: 3rem;
+    /* border: 1px solid black; */
+    border-radius: 2rem;
+    box-shadow: 1px 1px 1px 0 grey, -1px -1px 1px 0 grey;
+    padding: 1rem;
+    font-family: tahoma;
+    width: 40%;
+    
+}
+.hamidat{
+    display: flex;
+    justify-content :center;
+}
