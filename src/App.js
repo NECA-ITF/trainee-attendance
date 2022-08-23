@@ -1,5 +1,5 @@
 import './App.css';
-import ProfilePage from './pages/profilePage/ProfilePage';
+import RegisterPage from './pages/registerPage/RegisterPage';
 // import CustomButton from './components/customButton/CustomButton';
 // import CustomInput from './components/customInput/CustomInput';
 
@@ -8,7 +8,7 @@ function App() {
     <div className="App">
         {/* <CustomButton title= "Register" onClick={()=> console.log("clicked")}/>
         <CustomInput placeholder= "Email"/> */}
-        <ProfilePage/>
+        <RegisterPage/>
     </div>
   );
 }
