@@ -5,7 +5,7 @@ import CustomInput from '../../components/customInput/CustomInput'
 import emailsvg from '../../assets/images/emailsvg.png'
 import passwordsvg from '../../assets/images/passwordsvg.png'
 import avatar from '../../assets/images/avatar.jpeg'
-import logo from '../../assets/images/itf-logo.jpg''
+import logo from '../../assets/images/itf-logo.jpg'
 import bg from '../../assets/images/bg.png'
 
 function Login() {
