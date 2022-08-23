@@ -3,28 +3,27 @@ import CustomButton from '../../components/customButton/CustomButton';
 import CustomInput from '../../components/customInput/CustomInput';
 import './RegisterPage.css'
 import avatar from '../../assets/images/avatar.jpeg'
-import logo from '../../assets/images/logo.jpeg'
+import logo from '../../assets/images/itf-logo.jpg'
 import bg from '../../assets/images/bg.png'
 function RegisterPage() {
   return (
       <div className='register-page'>
-        <div className='register-container'>
           <div className='form-div'>
             <form action="" className='form'>
               <div className='logo-h1-div'>
-                <img src={logo} alt="logo" width={50}/>
-                <h4>INDUSTRIAL TRAINING FUND</h4>
+                <img src={logo} alt="logo" width={40}/>
+                <h5 style={{letterSpacing: 3}}>INDUSTRIAL TRAINING FUND</h5>
               </div>
-              <div className='avatar'>
-                <img src={avatar} alt="avatar" width={150}/>
-              <h2 style={{ fontWeight:'100'}}>ATTENDANCE SERVICE</h2>
+              <div className='avatar-div'>
+                <img className="avatar" src={avatar} alt="avatar" width={150}/>
+              <h4 style={{ fontWeight:'100'}}>ATTENDANCE SERVICE</h4>
               </div>
               
               <div className='custom-input'>
-                <CustomInput placeholder="Email Address" className="input" backgroundColor='#EEEEEE' outline='none'/><br />
-                <CustomInput placeholder="Phone Number" className="input" backgroundColor='#EEEEEE' outline='none'/><br />
-                <CustomInput placeholder="Full Name" backgroundColor='#EEEEEE' outline='none' className="input"/><br />
-                <CustomInput type="password" placeholder="Password" backgroundColor='#EEEEEE' outline='none' className="input"/><br />
+                <CustomInput placeholder="Email Address" className="input" backgroundColor='#EEEEEE' outline='none'/>
+                <CustomInput placeholder="Phone Number" className="input" backgroundColor='#EEEEEE' outline='none'/>
+                <CustomInput placeholder="Full Name" backgroundColor='#EEEEEE' outline='none' className="input"/>
+                <CustomInput type="password" placeholder="Password" backgroundColor='#EEEEEE' outline='none' className="input"/>
                 <CustomInput type="password" placeholder="Confirm Password" backgroundColor='#EEEEEE' outline='none' className="input"/>
               </div>
               <div className='gen'>
@@ -36,7 +35,7 @@ function RegisterPage() {
               </div>
               
               <div className='custom-button'>
-                <CustomButton title='Sign Up' borderRadius={2} width={300} />
+                <CustomButton title='Sign Up' borderRadius={2} width={300} className="button" />
               </div>
               
               <h4>Have an account? <span style={{ color:'blue'}}>Log in</span></h4>
@@ -45,7 +44,6 @@ function RegisterPage() {
 
 
             <img id='image' src={bg} className="pix" alt='bg' />
-        </div>
       </div>
 
     
