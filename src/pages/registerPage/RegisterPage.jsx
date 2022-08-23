@@ -2,9 +2,9 @@ import React from 'react';
 import CustomButton from '../../components/customButton/CustomButton';
 import CustomInput from '../../components/customInput/CustomInput';
 import './RegisterPage.css'
-import avatar from './images/avatar.jpeg'
-import logo from './images/logo.jpeg'
-import bg from './images/bg.png'
+import avatar from '../../assets/images/avatar.jpeg'
+import logo from '../../assets/images/logo.jpeg'
+import bg from '../../assets/images/bg.png'
 function RegisterPage() {
   return (
       <div className='register-page'>
