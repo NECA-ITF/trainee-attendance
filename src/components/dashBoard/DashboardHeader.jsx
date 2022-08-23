@@ -8,12 +8,12 @@ function DashboardHeader() {
   return (
     <div className = "header">
         <div className='flex1'>
-            <img src={itf_logo} alt="..." width="60px" height="50px"></img>
+            <img src={itf_logo} alt="..." width="50px" height="40px"></img>
         </div>
      
         <div className="Search">
             <div className='img2'>
-                <img src={search} alt="..." width="20px" height="20px"></img>
+                <img src={search} alt="..." width="10px" height="10px"></img>
             </div>
             <div>
                 <input type="text" id="Search1" placeholder="  Search..."></input>
@@ -21,11 +21,11 @@ function DashboardHeader() {
         </div>
         <div className="iconright">
             <div id='alignSelf'>
-                <span href='#body'>
+                <span>
                     <img src={logout} alt="..." width='40px'></img>
                 </span>
 
-                <span href='#body'>
+                <span>
                     <img src={details} alt="..." width="40px" height="40px"></img>
                 </span>
             </div>
