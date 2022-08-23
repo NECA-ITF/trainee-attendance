@@ -40,7 +40,8 @@ function Login() {
 
 
                     <div className='login-button'>
-                        <CustomButton id="loginButton" title="Log In" width={500} borderRadius={0} fontSize={30} fontWeight={"bold"} padding={10}/>
+                        <CustomButton id="loginButton" title="Log In" width={'60%'} borderRadius={0} fontSize={20} padding={8} background = 'rgba(255, 0, 0, 0.2)'
+                        box-shadow=  '0px 0px 2px rgba(0, 0, 0, 0.25)' />
                     </div>
 
 
@@ -49,7 +50,8 @@ function Login() {
                     <div className='line'> </div>
 
                     <div className='create-new'>
-                        <CustomButton title ="Create New Account" borderRadius={10} backgroundColor={"green"} width={300} fontSize={25} padding={20} textAlign={"center"}/>
+                        <CustomButton title ="Create New Account" borderRadius={10}  width={'300px'} fontSize={20} padding={15} textAlign={"center"} background = 'rgba(11, 133, 11, 0.55)'
+                        border-radius= '20px'/>
                     </div>
 
                 </form>
@@ -63,3 +65,4 @@ function Login() {
 }
 
 export default Login
+ 
