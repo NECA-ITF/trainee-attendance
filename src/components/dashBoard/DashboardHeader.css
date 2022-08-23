@@ -1,0 +1,41 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 10px 0;
+}
+.search{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid red;
+}
+.iconright{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.flex1{
+    display: flex;
+    justify-content: flex-start;margin-left: 2rem;
+}
+.Search{
+    padding: .5rem;
+    display: flex;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: fit-content;
+    align-self: center;
+
+}
+#Search1{
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding-left: 20px;
+}
+#alignSelf{
+    align-self: center;
+}
+#alignSelf img{
+    margin-right: 1.5rem;
+}
