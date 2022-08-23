@@ -1,12 +1,34 @@
+#Myprofile{
+  text-align: center;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  font-family: tahoma;
+
+}
+#marBot{
+  width: 80%;
+  margin: 0 auto 2rem;
+}
+#detHr{
+  margin-bottom: 0.5rem;
+  width: 80;
+  text-align:center;
+  opacity: 0.2;
+}
 .proDetFlex{
   display: flex;
   justify-content: space-between;
 }
-.proDet{
-  display: flex;
-  width: 50%;
-  padding: 1rem;
+.proDet {
+    display: flex;
+    width: 50%;
+    padding: 1.3rem;
+    margin-bottom: 0.5rem;
+}
+.proDet img{
+  opacity: 0.4;
 }
 .padLeft{
   margin-left: 10px;
 }
+
