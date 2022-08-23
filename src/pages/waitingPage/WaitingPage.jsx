@@ -1,7 +1,7 @@
 import React from 'react'
-import log from '../../assets/waitingPage/log.png'
+import log from '../../assets/images/log.png'
 import './WaitingPage.css'
-import sidepic from '../../assets/waitingPage/pic.gif'
+import sidepic from '../../assets/images/pic.gif'
 import CustomButton from '../../components/customButton/CustomButton'
 
 function WaitingPage() {
