@@ -1,6 +1,6 @@
 import React from 'react'
 import "./AttendanceItems.css";
-import AttendanceItem from './AttendanceItem';
+import AttendanceItem from '../AttendanceItem/AttendanceItem';
 function AttendanceItems() {
   return (
     <div className='attendance'>
