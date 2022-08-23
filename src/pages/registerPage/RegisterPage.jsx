@@ -3,12 +3,11 @@ import CustomButton from '../../components/customButton/CustomButton';
 import CustomInput from '../../components/customInput/CustomInput';
 import './RegisterPage.css'
 import avatar from '../../assets/images/avatar.jpeg'
-import logo from '../../assets/images/logo.jpeg'
+import logo from '../../assets/images/itf-logo.jpg'
 import bg from '../../assets/images/bg.png'
 function RegisterPage() {
   return (
       <div className='register-page'>
-        {/*<div className='register-container'>*/}
           <div className='form-div'>
             <form action="" className='form'>
               <div className='logo-h1-div'>
@@ -36,7 +35,7 @@ function RegisterPage() {
               </div>
               
               <div className='custom-button'>
-                <CustomButton title='Sign Up' borderRadius={2} width={300} />
+                <CustomButton title='Sign Up' borderRadius={2} width={300} className="button" />
               </div>
               
               <h4>Have an account? <span style={{ color:'blue'}}>Log in</span></h4>
@@ -45,7 +44,6 @@ function RegisterPage() {
 
 
             <img id='image' src={bg} className="pix" alt='bg' />
-        {/*</div>*/}
       </div>
 
     
