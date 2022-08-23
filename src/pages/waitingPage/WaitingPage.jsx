@@ -12,11 +12,11 @@ function WaitingPage() {
       </div>
         <div  className='waiting-flex'>
             <div className='waiting-text'>
-                <h2>
+                <span>
                 You have completed the first step of your registration go to the admin to complete your registration process, then click on login
-                </h2>
+                </span>
                 <div className="waiting-button">
-                    <CustomButton title='Login' borderRadius={0} width={250} fontSize={20}/>
+                    <CustomButton title='Login' borderRadius={0} width={250} fontSize={20} backgroundColor= 'lightred' boxShadow='0 6.0339 6.0339 #FFCCCC'/>
                 </div>
                 
             </div>
