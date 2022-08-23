@@ -1,8 +1,7 @@
 import React from 'react'
-import CustomButton from '../../components/customButton/CustomButton';
+import CustomButton from '../customButton/CustomButton';
 import './AttendanceItem.css'
-import itf_log from '../../images/itf_log.png'
-
+import itf_log from '../../assets/images/itf-logo.jpg'
 function AttendanceItem() {
   return (
     <div className='attenditem'>
