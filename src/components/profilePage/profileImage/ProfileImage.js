@@ -7,7 +7,7 @@ export default class ProfileImage extends Component {
     return (
          <div>
             <div id='Oflex'>
-                    <img src={template} alt="Profile" height="200px" width="200px"/>
+                  <img src={template} alt="Profile" height="200px" width="200px"/>
             </div>
          </div>
     )
