@@ -3,6 +3,7 @@
     height: 100vh;
     display: flex;
     /* align-items: center; */
+    max-width: 1500px;
 }
 .login-page-right{
     width: 50%;
