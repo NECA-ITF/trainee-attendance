@@ -1,0 +1,21 @@
+.econt{
+    width: 90%;
+    margin: 20px auto 0;
+    height: fit-content;
+}
+.econtent{
+    margin-top: 35px;
+}
+.econtent h4{
+    margin-top: 10px;
+}
+.custinput{
+    margin-top: 12px;
+}
+.custbtn{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    height: 45px;
+    margin-right: 30px;
+}
