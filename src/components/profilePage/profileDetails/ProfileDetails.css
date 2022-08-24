@@ -33,6 +33,10 @@
   margin-left: 10px;
 
 }
+.proDetImg{
+  width:20px;
+  height:20px;
+}
 .contBtn{
   /* border: 1px solid black; */
   display: flex;
