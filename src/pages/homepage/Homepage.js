@@ -1,5 +1,5 @@
 import React from 'react'
-import './HomePage.css'
+import './Homepage.css'
 import itfLogo from "../../assets/images/log.png"
 import CustomButton from '../../components/customButton/CustomButton'
 import { Link } from 'react-router-dom';
