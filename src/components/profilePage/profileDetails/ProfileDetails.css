@@ -39,9 +39,11 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 110px;
-  margin: 10px 55px 0 0px;
+  height: 70px;
+  margin: auto;
 }
+
+
 .contBtn1{
   display: none;
 }
