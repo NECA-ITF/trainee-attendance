@@ -1,43 +1,40 @@
 .bighome{
-        height: 100vh ;
-        margin: auto;
-        border: 0px solid rgb(4, 62, 219);
+        width: 100%;
+        height: 100vh;
         background-image: url("../../assets/images/red-trianglify-3c51d9e2.jpg");
         background-size:cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
-       
-
 }
-
 .smallhome{
-            margin: auto;
-            width: 50%;
-            height: 740px;
+            width: 100%;
+            /* height: 740px; */
             display: flex;
             flex-direction: column;
-            justify-content: space-evenly;
+            justify-content: center;
             align-items: center;
-            font-size: 25px;
-        
-            
+            font-size: 25px; 
 }      
 
 .imgdiv{
-        margin-top: 11%;
-        margin-bottom: -8%;
-         width: 360px;
-         height: 360px;
+        margin-top: 7%;
+        margin-bottom: 2%;
+         width: 100%;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         /* height: 340px; */
         
 
 }
 
-img{
-        width: 360px;
-        height: 280px;
+.imgdiv img{
+        width: 200px;
+        /* height: 250px; */
 }
 
-.itfdiv{color: white;
+.itfdiv{
+        color: white;
 
       }
 
@@ -46,11 +43,13 @@ img{
         text-align: center;
         width: 100%;
         font-size: 17px;
+        margin-top: 2%;
 }
 
 .logdiv{
         margin-top: 3%;
-
+        border: 1px solid pink;
+      
 }
 
 

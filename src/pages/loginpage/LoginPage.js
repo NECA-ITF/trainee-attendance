@@ -40,7 +40,7 @@ function Login() {
 
 
                     <div className='login-button'>
-                        <CustomButton id="loginButton" title="Log In" width={'60%'} borderRadius={0} fontSize={20} padding={8} background = 'rgba(255, 0, 0, 0.2)'
+                        <CustomButton id="loginButton" title="Log In" width={'60%'} borderRadius={0} fontSize={20} padding={8} 
                         box-shadow=  '0px 0px 2px rgba(0, 0, 0, 0.25)' />
                     </div>
 
