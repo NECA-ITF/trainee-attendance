@@ -1,35 +1,30 @@
 .register-page{
     width: 100%;
     height: 100vh;
-    /* top: 0;
-    bottom: 0; */
     display: flex;
     align-items: center;
     justify-content: center;
-    
+    overflow: auto;
 }
-/* .register-container{
-    min-width: 100vw;
-    margin: 0 auto;
-    width: 80%;
-    height: 100%;
-    display: flex; 
-    align-items: center;
-    padding: 5px;
-    justify-content: center;
-} */
 .form-div{
     z-index: 1;
-    width: 25%;
+    width: 40%;
     height: 100%;
     min-width: 350px;
-    max-width: 500px;
+    max-width: 700px;
     max-height: 1080px;
-    overflow: auto;
-    margin-right: 20px;
-    /* background-color: rgb(252, 252, 252); */
+    scrollbar-width: none;
 }
 .form-div::-webkit-scrollbar { 
+    display: none;
+}
+.form-div::-moz-scrollbar { 
+    display: none;
+}
+.form-div::-o-scrollbar { 
+    display: none;
+}
+.form-div::-ms-scrollbar { 
     display: none;
 }
 .avatar{
@@ -43,7 +38,6 @@
     justify-content: center;
     align-items: center;
     margin-top: 10px;
-    /* background-color:red; */
 }
 .avatar-div{
     text-align: center;
@@ -55,8 +49,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* background-color: blue; */
-    /* margin: 0 15%; */
 }
 .gen{
     display: flex;
@@ -69,29 +61,17 @@
     gap: 50px;
     align-items: center;
     margin: 2% 0;
-    /* background-color: red; */
 }
 
 .custom-button{
     width: 100%;
     display: flex;
     justify-content: center;
-    /* flex-direction: column; */
-    /* align-items: center; */
     margin-top: 10px;
     margin-bottom: 10px;
-    /* background-color: yellow; */
-}
-/* .button{
-    width: 20rem;
-    color: green;
-} */
-h4{
-    text-align: center;
-    margin-bottom: 2%;
 }
 #image{
-    width: 40%;
+    width: 60%;
     max-width: 950px;
     height: 100%;
     max-height: 1080px;
@@ -106,7 +86,6 @@ h4{
         right: 0;
     }
     .form{
-        /* opacity: 0; */
         background-color: rgba(255, 255, 255, 0.855);
     }
     @media screen and (max-height: 1000px) {
@@ -136,8 +115,20 @@ h4{
 }
 .all-gen{
     width: 40%;
-    background-color: #EEEEEE;
+    background-color: #eeeeee;
     padding: 10px;
     display: flex;
     justify-content: space-between;
+}
+.itf-title{
+    letter-spacing: 3px;
+}
+.attendance-title{
+    text-align: center;
+    margin-bottom: 2%;
+    font-weight: 100px;
+}
+.login{
+    color: blue;
+    margin-bottom: 10px;
 }
