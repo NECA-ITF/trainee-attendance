@@ -15,7 +15,7 @@ export default class ProfilePage extends Component {
               <ProfileImage/>
               <ProfileDetails/>
           </div> */}
-          <div className='profilecontainer' style={{width: '40%', height: '80%'}}>
+          <div className='profilecontainer' style={{width: '40%', height: '100%'}}>
             <EditProfilePage />
           </div>
         </div>
