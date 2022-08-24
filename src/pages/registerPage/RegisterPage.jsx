@@ -36,10 +36,9 @@ function RegisterPage() {
                   <div className='all-gen'>Male <input type='radio' name='terms'/></div>
                 </div>
               </div>
-              
-              <div className='custom-button'>
-                <CustomButton title='Sign Up' borderRadius={2} width={'68%'} className="button" />
-              </div>
+              <Link to="/confirm" className='custom-button'>
+                <CustomButton title='Sign Up' borderRadius={2} width={'65%'} className="button" />
+              </Link>
               
               <h4>Have an account? <Link to="/login"><span className="login">Log in</span></Link></h4>
             </form>
