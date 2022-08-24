@@ -1,12 +1,12 @@
 import './App.css';
 import HomePage from './pages/homepage/Homepage'
-import Dashboard from './pages/dashboardPage/Dashboard'
+import ProfilePage from './pages/profilePage/ProfilePage'
 function App() {
   return (
     <div className="App">
       {/* <HomePage/> */}
-      {/* <ProfilePage/> */}
-      <Dashboard/>
+      <ProfilePage/>
+      {/* <Dashboard/> */}
     </div>
   );
 }
