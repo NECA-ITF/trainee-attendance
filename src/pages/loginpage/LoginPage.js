@@ -7,7 +7,7 @@ import passwordsvg from '../../assets/images/passwordsvg.png'
 import avatar from '../../assets/images/avatar.jpeg'
 import logo from '../../assets/images/itf-logo.jpg'
 
-function Login() {
+function LoginPage() {
     return (
         <div className='login-page'>
             <div className='login-page-left'>
@@ -17,25 +17,25 @@ function Login() {
                         <h2>INDUSTRIAL TRANING FUND</h2>
                     </div>
                     <div className='avatext'>
-                        <img src={avatar} alt='avatar' />
-                        <h2>
+                        <img src={avatar} alt='avatar'/>
+                        <h4>
                             ATTENDANCE SERVICE
-                        </h2>
+                        </h4>
                     </div>
                     <form className='login-page-form'>
                         <div className='email-input'>
                             <img src={emailsvg} alt ='emailsvg' />
-                            <CustomInput border = 'none' placeholder={'Email Address or Number'} />
+                            <CustomInput border = 'none' placeholder={'Email Address or Number'} type="text"/>
                         </div>
                         <div className='pass-input'>
                             <img src={passwordsvg} alt ='emailsvg' />
-                            <CustomInput border = 'none'  placeholder={'Password'} />
+                            <CustomInput border = 'none'  placeholder={'Password'} type="password"/>
                         </div>
-                        <CustomButton title={'Log In'} boxShadow = '0px 0px 2px rgba(0, 0, 0, 0.15)' width = '400px' borderRadius = '0px' backgroundColor = 'rgba(255, 0, 0, 0.2)' fontSize = '1.2rem' fontWeight = 'bold'/>
+                        <CustomButton title={'Log In'}  width = '400px' borderRadius = '0px' fontSize = '1.2rem' fontWeight = 'bold'/>
                         <div className='forgotpass'>
-                            <h2 >Forgotten password ?</h2>
+                            <h3>Forgotten password ?</h3>
                         </div>
-                        <CustomButton title={'Create New Account'} boxShadow = 'none' width = '300px' borderRadius = '20px' backgroundColor = 'rgba(11, 133, 11, 0.55)' fontSize = '1.2rem' fontWeight = 'bold' marginBottom = '10px' />
+                        <CustomButton title={'Create New Account'} boxShadow = 'none' width = '300px' borderRadius = '15px' backgroundColor = 'rgba(11, 133, 11, 0.55)' fontSize = '1.2rem' fontWeight = 'bold' marginBottom = '10px' />
                     </form>
                 </div>
             </div>
@@ -45,5 +45,5 @@ function Login() {
     )
 }
 
-export default Login
+export default LoginPage;
  

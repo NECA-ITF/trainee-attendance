@@ -36,21 +36,20 @@
 }
 .avatext{
     text-align: center;
-    padding: 20px;
+    margin-top: 20px;
     margin-bottom: 10px;
 }
 .avatext img{
     width: 150px;
     height: 150px;
 }
-.avatext h2{
-     font-style: normal;
-    font-weight: 500;
+.avatext h4{
+    font-weight: 100px;
 }
 input{
     background: rgba(238, 238, 238, 0.49);
     border: none;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 input:active, input:focus{
     border: none;

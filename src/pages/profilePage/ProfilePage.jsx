@@ -3,8 +3,7 @@ import React, { Component } from 'react'
 // import ProfileImage from '../../components/profilePage/profileImage/ProfileImage'
 import EditProfilePage from '../../components/profilePage/EditProfile/EditProfile'
 import './ProfilePage.css'
-
-import Header from '../../components/dashBoard/DashboardHeader'
+import Header from '../../components/DashboardHeader/DashboardHeader'
 
 export default class ProfilePage extends Component {
   render() {
@@ -16,7 +15,7 @@ export default class ProfilePage extends Component {
               <ProfileImage/>
               <ProfileDetails/>
           </div> */}
-          <div className='profilecontainer' style={{width: '40%', height: '80%'}}>
+          <div className='profilecontainer' style={{width: '40%', height: '100%'}}>
             <EditProfilePage />
           </div>
         </div>

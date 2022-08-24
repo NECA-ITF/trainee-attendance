@@ -1,9 +1,9 @@
 import React from 'react';
 import './CustomInput.css';
 
-function CustomInput({placeholder, ...otherProps}) {
+function CustomInput({placeholder, type, ...otherProps}) {
   return (
-    <input style={{...otherProps}} placeholder={placeholder} className='input'></input>
+    <input style={{...otherProps}} placeholder={placeholder} type={type} className='input'></input>
 
   )
 }
