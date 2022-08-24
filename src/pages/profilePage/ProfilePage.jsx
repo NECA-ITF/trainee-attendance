@@ -3,7 +3,7 @@ import ProfileDetails from '../../components/profilePage/profileDetails/ProfileD
 import ProfileImage from '../../components/profilePage/profileImage/ProfileImage'
 import './ProfilePage.css'
 
-import Header from '../../components/dashBoard/DashboardHeader'
+import Header from '../../components/DashboardHeader/DashboardHeader'
 
 export default class ProfilePage extends Component {
   render() {
