@@ -13,7 +13,7 @@ function RegisterPage() {
             <form action="" className='form'>
               <div className='logo-h1-div'>
                 <img src={logo} alt="logo" width={40}/>
-                <h5 className="itf-title">INDUSTRIAL TRAINING FUND</h5>
+                <h1 className="itf-title">INDUSTRIAL TRAINING FUND</h1>
               </div>
               <div className='avatar-div'>
                 <img className="avatar" src={avatar} alt="avatar" width={150}/>
@@ -36,7 +36,7 @@ function RegisterPage() {
               </div>
               
               <div className='custom-button'>
-                <CustomButton title='Sign Up' borderRadius={2} width={'75%'} className="button" />
+                <CustomButton title='Sign Up' borderRadius={2} width={'68%'} className="button" />
               </div>
               
               <h4>Have an account? <span className="login">Log in</span></h4>
