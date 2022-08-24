@@ -38,7 +38,9 @@ function RegisterPage() {
               </div>
               
               <div className='custom-button'>
+              {/* <Link to="/confirm"> */}
                 <CustomButton title='Sign Up' borderRadius={2} width={'68%'} className="button" />
+              {/* </Link> */}
               </div>
               
               <h4>Have an account? <Link to="/login"><span className="login">Log in</span></Link></h4>

@@ -32,7 +32,7 @@ function LoginPage() {
                             <img src={passwordsvg} alt ='emailsvg' />
                             <CustomInput border = 'none'  placeholder={'Password'} type="password"/>
                         </div>
-                        <Link to="/confirm">
+                        <Link to="/dashboard">
                             <CustomButton title={'Log In'}  width = '400px' borderRadius = '0px' fontSize = '1.2rem' fontWeight = 'bold'/>
                         </Link>
                         <div className='forgotpass'>
