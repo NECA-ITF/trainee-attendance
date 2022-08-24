@@ -1,12 +1,93 @@
+#Myprofile{
+  text-align: center;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  font-family: tahoma;
+
+}
+#marBot{
+  width: 80%;
+  margin: 0 auto 2rem;
+}
+#detHr{
+  margin-bottom: 0.5rem;
+  width: 80;
+  text-align:center;
+  opacity: 0.2;
+}
 .proDetFlex{
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
 }
-.proDet{
-  display: flex;
-  width: 50%;
-  padding: 1rem;
+.proDet {
+    display: flex;
+    min-width: 50%;
+    padding: 1.3rem;
+    margin-bottom: 0.5rem;
+}
+.proDet img{
+  opacity: 0.4;
 }
 .padLeft{
   margin-left: 10px;
+
+}
+.proDetImg{
+  width:20px;
+  height:20px;
+}
+.contBtn{
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 70px;
+  margin: auto;
+}
+
+
+.contBtn1{
+  display: none;
+}
+
+@media(max-width: 1039px ){
+  #marBot h1{
+    font-size: 1.2rem;
+  }
+  .proDetFlex h4{
+    font-size: 0.9rem;
+  }
+  .contBtn{
+    height: 70%;
+  }
+  .proDet {
+    display: flex;
+    width: 50%;
+    padding: .9rem;
+    margin-bottom: 0.5rem;
+}
+}
+@media(max-width: 1483px ){
+  /* .proDetFlex{
+    flex-wrap: wrap;
+  } */
+  #marBot h1{
+    font-size: 1.5rem;
+  }
+  .proDet {
+    padding: .9rem;
+    margin-bottom: 0.5rem;
+  }
+.contBtn{
+  display: none;
+  }
+  .contBtn1{
+    display: flex;
+    justify-content: center;
+  }
+  .proDetFlex h4{
+    font-size: 0.9rem;
+  }
 }

@@ -1,11 +1,19 @@
-#Myprofile{
-    text-align: center;
-}
-#Oflex{
+
+#Oflex {
     display: flex;
     justify-content: center;
+    padding: 2rem;
+    padding-bottom: 0.5rem;
 }
 #Oflex img {
     border-radius: 50%;
+    width: 10rem;
+    height: 10rem;
     object-fit: cover;
+}
+@media(max-width: 1039px ){
+    #Oflex img{
+        width: 5rem;
+        height: 5rem;
+    }
 }
