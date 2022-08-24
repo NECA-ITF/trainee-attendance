@@ -8,23 +8,14 @@
 }
 .form-div{
     z-index: 1;
-    width: 40%;
+    width: 50%;
     height: 100%;
     min-width: 350px;
-    max-width: 700px;
+    max-width: 720px;
     max-height: 1080px;
     scrollbar-width: none;
 }
-.form-div::-webkit-scrollbar { 
-    display: none;
-}
-.form-div::-moz-scrollbar { 
-    display: none;
-}
-.form-div::-o-scrollbar { 
-    display: none;
-}
-.form-div::-ms-scrollbar { 
+.form-div::-webkit-scrollbar, .form-div::-moz-scrollbar, .form-div::-o-scrollbar, .form-div::-ms-scrollbar { 
     display: none;
 }
 .avatar{
@@ -70,14 +61,18 @@
     margin-top: 10px;
     margin-bottom: 10px;
 }
-#image{
-    width: 60%;
-    max-width: 950px;
+.image-div{
+    width: 50%;
     height: 100%;
+    max-width: 950px;
     max-height: 1080px;
+    background: url('../../assets/images/bg.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 @media screen and (max-width: 950px) {
-    #image{
+    .image-div{
         position: absolute;
         width: 100%;
         height: 100%;

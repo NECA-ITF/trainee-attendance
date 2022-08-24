@@ -1,6 +1,6 @@
 import React from 'react'
-import CustomInput from '../../customInput/CustomInput'
-import CustomButton from '../../customButton/CustomButton'
+import CustomInput from '../customInput/CustomInput'
+import CustomButton from '../customButton/CustomButton'
 import './EditProfile.css'
 function EditProfile() {
   return (
