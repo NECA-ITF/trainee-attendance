@@ -1,15 +1,16 @@
 import React, { Component } from 'react'
 import "./ProfileDetails.css"
-import phone from '../../../assets/images/phone.png'
-import mail from '../../../assets/images/mail.png'
-import profile from '../../../assets/images/profile.png'
-import CustomButton from '../../customButton/CustomButton'
-import lock from '../../../assets/images/lock.png'
-
+import phone from '../../assets/images/phone.png'
+import mail from '../../assets/images/mail.png'
+import profile from '../../assets/images/profile.png'
+import lock from '../../assets/images/lock.png'
+import CustomButton from '../customButton/CustomButton'
+import ProfileImage from '../profileImage/ProfileImage';
 export default class ProfileDetails extends Component {
   render() {
     return (
       <div>
+        <ProfileImage />
         <div id='marBot'>
           <h1 id='Myprofile'> Maryam xxxx</h1>
             <hr id='detHr'/>

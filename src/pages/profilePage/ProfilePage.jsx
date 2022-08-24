@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
 // import ProfileDetails from '../../components/profilePage/profileDetails/ProfileDetails'
 // import ProfileImage from '../../components/profilePage/profileImage/ProfileImage'
-import EditProfilePage from '../../components/profilePage/EditProfile/EditProfile'
+import EditProfilePage from '../../components/EditProfile/EditProfile'
+import ProfileDetails from '../../components/profileDetails/ProfileDetails'
 import './ProfilePage.css'
 import Header from '../../components/DashboardHeader/DashboardHeader'
 
@@ -16,7 +17,8 @@ export default class ProfilePage extends Component {
               <ProfileDetails/>
           </div> */}
           <div className='profilecontainer' style={{width: '40%', height: '100%'}}>
-            <EditProfilePage />
+            <ProfileDetails />
+            {/* <EditProfilePage /> */}
           </div>
         </div>
       </div>

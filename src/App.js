@@ -1,18 +1,26 @@
 import './App.css';
-import HomePage from './pages/homePage/Homepage'
-import ProfilePage from './pages/profilePage/ProfilePage'
-import LoginPage from './pages/loginPage/LoginPage'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
+import HomePage from './pages/homePage/HomePage';
+import Dashboard from './pages/dashboardPage/Dashboard';
+import ProfilePage from './pages/profilePage/ProfilePage';
+import Login from './pages/loginPage/LoginPage';
 import RegisterPage from './pages/registerPage/RegisterPage';
-import WaitingPage from './pages/waitingPage/WaitingPage'
+import WaitingPage from './pages/waitingPage/WaitingPage';
 function App() {
   return (
     <div className="App">
-      {/* <HomePage/> */}
-      <ProfilePage/>
-      {/* <Dashboard/> */}
-      {/* <RegisterPage/> */}
-      {/* <LoginPage/> */}
-      {/* <WaitingPage/> */}
+    <Router>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/profile" element={<ProfilePage />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/register" element={<RegisterPage />} />
+          <Route path="/confirm" element={<WaitingPage />} />
+        </Routes>
+      </Router>
+{/* <RegisterPage /> */}
     </div>
   );
 }

@@ -6,6 +6,7 @@ import emailsvg from '../../assets/images/emailsvg.png'
 import passwordsvg from '../../assets/images/passwordsvg.png'
 import avatar from '../../assets/images/avatar.jpeg'
 import logo from '../../assets/images/itf-logo.jpg'
+import { Link } from 'react-router-dom';
 
 function LoginPage() {
     return (
@@ -31,11 +32,15 @@ function LoginPage() {
                             <img src={passwordsvg} alt ='emailsvg' />
                             <CustomInput border = 'none'  placeholder={'Password'} type="password"/>
                         </div>
-                        <CustomButton title={'Log In'}  width = '400px' borderRadius = '0px' fontSize = '1.2rem' fontWeight = 'bold'/>
+                        <Link to="/confirm">
+                            <CustomButton title={'Log In'}  width = '400px' borderRadius = '0px' fontSize = '1.2rem' fontWeight = 'bold'/>
+                        </Link>
                         <div className='forgotpass'>
                             <h3>Forgotten password ?</h3>
                         </div>
-                        <CustomButton title={'Create New Account'} boxShadow = 'none' width = '300px' borderRadius = '15px' backgroundColor = 'rgba(11, 133, 11, 0.55)' fontSize = '1.2rem' fontWeight = 'bold' marginBottom = '10px' />
+                        <Link to="/register">
+                            <CustomButton title={'Create New Account'} boxShadow = 'none' width = '300px' borderRadius = '15px' backgroundColor = 'rgba(11, 133, 11, 0.55)' fontSize = '1.2rem' fontWeight = 'bold' marginBottom = '10px' />
+                        </Link>
                     </form>
                 </div>
             </div>
