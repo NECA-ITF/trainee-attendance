@@ -14,7 +14,9 @@ function RegisterPage() {
           <div className='form-div'>
             <form action="" className='form'>
               <div className='logo-h1-div'>
+              <Link to="/" className='links'>
                 <img src={logo} alt="logo" width={40}/>
+              </Link>
                 <h1 className="itf-title">INDUSTRIAL TRAINING FUND</h1>
               </div>
               <div className='avatar-div'>
