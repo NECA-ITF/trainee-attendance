@@ -5,6 +5,8 @@ import './RegisterPage.css';
 import avatar from '../../assets/images/avatar.jpeg';
 import logo from '../../assets/images/itf-logo.jpg';
 import bg from '../../assets/images/bg.png';
+import { Link } from 'react-router-dom';
+
 function RegisterPage() {
   return (
       <div className='register-page'>
@@ -34,17 +36,16 @@ function RegisterPage() {
                   <div className='all-gen'>Male <input type='radio' name='terms'/></div>
                 </div>
               </div>
+              <Link to="/confirm" className='custom-button links'>
+                <CustomButton title='Sign Up' borderRadius={2} width={'65%'} className="button" />
+              </Link>
               
-              <div className='custom-button'>
-                <CustomButton title='Sign Up' borderRadius={2} width={'68%'} className="button" />
-              </div>
-              
-              <h4>Have an account? <span className="login">Log in</span></h4>
+              <h4>Have an account? <Link className="links" to="/login"><span className="login">Log in</span></Link></h4>
             </form>
           </div>
 
 
-            <img id='image' src={bg} className="pix" alt='bg' />
+            <div src={bg} className="image-div" alt='bg' ></div>
       </div>
 
     

@@ -1,97 +1,83 @@
 .login-page{
-    display: flex;
-    max-width: 100%;
     width: 100%;
     height: 100vh;
+    display: flex;
+    /* align-items: center; */
+    max-width: 1500px;
+}
+.login-page-right{
+    width: 50%;
+    background: url('../../assets/images/bg.png');
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.login-page-left{
+    width: 50%;
+}
+.login-page-left-inside{
+    width: 80%;
     margin: 0 auto;
     text-align: center;
-    overflow: hidden;
-
 }
-
-.left{
-    background-color: #fff;
-    width: 50%;
-    padding: 30px;
-}
-
-.main-logo{
-    /* width: 60%; */
-    margin: 0 auto; 
+.login-page-header{
     display: flex;
     align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.login-page-header img{
+    width: 68px;
+    height: 55px;
+}
+.login-page-header h2{
+    font-size: 1.2rem;
+}
+.avatext{
+    text-align: center;
+    margin-top: 20px;
     margin-bottom: 10px;
+}
+.avatext img{
+    width: 150px;
+    height: 150px;
+}
+.avatext h4{
+    font-weight: 100px;
+}
+input{
+    background: rgba(238, 238, 238, 0.49);
+    border: none;
+    font-size: 1rem;
+}
+input:active, input:focus{
+    border: none;
+    outline: none;
+}
+.pass-input,.email-input{
+    display: flex;
+    align-items: center;
+    background: rgba(238, 238, 238, 0.49);
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
+    width: 400px;
+    outline: none;
+    margin-bottom: 30px;
+}
+.pass-input img,.email-input img{
+    padding: 10px;
+    width: 29px;
+    height: 29px;
+    opacity: 0.4;
+}
+.login-page-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
 }
-
-#Itflogo{
-    width: 50px;
-    height: 40px;
-    margin-right: 10px;
-}
-
-.main-logo h1{
-    font-size:1.2rem;
-}
-
-.avatar img{
-    width: 100px;
-}
-
-.avatar h2{
-    font-size:25px;
-    font-weight: 30;
-    margin-bottom: 30px;
-}
-
-.email-input{
-    width: 60%;
-    margin: 0 auto;
-    display: flex;
-    margin-bottom: 20px;
-    align-items:center;
-    background-color: whitesmoke;
-}
-
-#emailsvg{
-    opacity: 20%;
-    margin-left: 10px;
-}
-
-.password-input{
-    width: 60%;
-    margin: 0 auto;
-    display: flex;
-    margin-bottom: 30px;
-    align-items:center;
-    background-color: whitesmoke;
-}
-
-#passwordsvg{
-    opacity: 20%;
-    margin-left: 10px;
-}
-
-#forgotPassword{
+.forgotpass{
     color: rgba(255, 0, 0, 0.45);
-    font-weight: bold;
-    font-size: 1.2rem;
-    margin-bottom: 30px;
-    margin-top: 30px;
-}
-
-
-.line{
-    border: 0.2px solid rgba(0, 0, 0, 0.222);
-    margin-bottom: 20px;
-    width: 60%;
-    margin:20px auto;
-}
-
-.bgright{
-    width: 50%;
-}
-.bgright img{
-    width: 100%;
-    height: 100%;
+    font: 1.2rem;
+    margin: 20px;
 }

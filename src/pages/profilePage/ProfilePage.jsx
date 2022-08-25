@@ -14,6 +14,7 @@ export default class ProfilePage extends Component {
           <div className='profilecontainer'>
               <ProfileImage/>
               <ProfileDetails/>
+
           </div>
         </div>
       </div>

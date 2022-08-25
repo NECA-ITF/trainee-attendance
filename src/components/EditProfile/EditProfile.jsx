@@ -1,8 +1,13 @@
 import React from 'react'
+<<<<<<< HEAD:src/components/profilePage/EditProfile/EditProfile.jsx
 import CustomInput from '../../customInput/CustomInput'
 import CustomButton from '../../customButton/CustomButton'
 import Header from '../../DashboardHeader/DashboardHeader'
 import { MdDashboard } from "react-icons/md";
+=======
+import CustomInput from '../customInput/CustomInput'
+import CustomButton from '../customButton/CustomButton'
+>>>>>>> f9340585653bc46083615c3bb5b37f163b55e53d:src/components/EditProfile/EditProfile.jsx
 import './EditProfile.css'
 function EditProfile() {
   return (
