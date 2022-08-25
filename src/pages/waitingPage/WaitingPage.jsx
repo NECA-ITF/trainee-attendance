@@ -16,11 +16,12 @@ function WaitingPage() {
                 <span>
                 You have completed the first step of your registration go to the admin to complete your registration process, then click on login
                 </span>
-                <div className="waiting-button">
-                  <Link to="/login">
-                    <CustomButton title='Login' borderRadius={0} width={250} fontSize={20} backgroundColor= 'lightred' boxShadow='0 6.0339 6.0339 #FFCCCC'/>
-                  </Link>
-                </div>
+                <Link to="/login" className="links">
+                  <div className="waiting-button">
+                      <CustomButton title='Login' borderRadius={0} width={250} fontSize={20} backgroundColor= 'lightred' boxShadow='0 6.0339 6.0339 #FFCCCC'/>
+                  </div>
+                </Link>
+
                 
             </div>
             <div className='side-img'>
