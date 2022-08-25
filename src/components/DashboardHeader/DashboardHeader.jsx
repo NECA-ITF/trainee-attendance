@@ -8,9 +8,11 @@ import { Link } from 'react-router-dom';
 function DashboardHeader({ dash}) {
   return (
     <div className = "header">
-        <div className='flex1'>
-            <img src={itf_logo} alt="..." width="50px" height="40px"></img>
-        </div>
+        <Link to="/" className='links'>
+            <div className='flex1'>
+                <img src={itf_logo} alt="..." width="50px" height="40px"></img>
+            </div>
+        </Link>
      
         <div className="Search">
             <div className='img2'>

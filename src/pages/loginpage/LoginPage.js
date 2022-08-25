@@ -14,7 +14,7 @@ function LoginPage() {
             <div className='login-page-left'>
                 <div className='login-page-left-inside'>
                     <div className='login-page-header'>
-                        <img src={logo} alt= 'itf logo' />
+                    <Link to="/" className='links'><img src={logo} alt= 'itf logo' /></Link>
                         <h2>INDUSTRIAL TRANING FUND</h2>
                     </div>
                     <div className='avatext'>
