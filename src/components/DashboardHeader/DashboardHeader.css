@@ -20,13 +20,17 @@
     justify-content: flex-start;margin-left: 2rem;
 }
 .Search{
-    padding-left: 5px;
+    padding: 10px;
     display: flex;
     border: 1px solid black;
     border-radius: 10px;
     height: fit-content;
     align-self: center;
 
+}
+.Search .img2 img{
+    width: 15px;
+    height: 15px;
 }
 #Search1{
     border-radius: 10px;
