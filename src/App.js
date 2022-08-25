@@ -20,7 +20,6 @@ function App() {
           <Route path="/confirm" element={<WaitingPage />} />
         </Routes>
       </Router>
-{/* <RegisterPage /> */}
     </div>
   );
 }
