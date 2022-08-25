@@ -9,7 +9,9 @@ function WaitingPage() {
   return (
     <div className='waiting-page'>
       <div className='waiting-head'>
+      <Link to="/" className='links'>
         <img src={log} alt="log"/>
+      </Link>
       </div>
         <div  className='waiting-flex'>
             <div className='waiting-text'>
