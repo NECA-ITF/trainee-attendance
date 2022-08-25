@@ -5,7 +5,7 @@ import mail from '../../assets/images/mail.png'
 import profile from '../../assets/images/profile.png'
 import lock from '../../assets/images/lock.png'
 import CustomButton from '../customButton/CustomButton'
-import ProfileImage from '../profileImage/ProfileImage';
+// import ProfileImage from '../profileImage/ProfileImage';
 import {Link} from 'react-router-dom';
 export default class ProfileDetails extends Component {
   render() {
