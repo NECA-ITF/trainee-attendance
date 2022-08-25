@@ -26,14 +26,12 @@ function DashboardHeader({ dash}) {
                     <img src={logout} alt="..." width='40px'></img>
                 </Link>
 
-                <Link className="links" to="/profile">
                     <span id='eprofile'>
                         <img src={details} alt="..." width="40px" height="40px"></img>
                     </span>
                     <span style={{fontSize: "1.9rem", marginRight: '20px'}}>
                         {dash}
                     </span>
-                </Link>
             </div>
                 
         </div>

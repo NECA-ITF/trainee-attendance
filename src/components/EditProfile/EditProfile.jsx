@@ -1,18 +1,14 @@
 import React from 'react'
-<<<<<<< HEAD:src/components/profilePage/EditProfile/EditProfile.jsx
-import CustomInput from '../../customInput/CustomInput'
-import CustomButton from '../../customButton/CustomButton'
-import Header from '../../DashboardHeader/DashboardHeader'
-import { MdDashboard } from "react-icons/md";
-=======
 import CustomInput from '../customInput/CustomInput'
 import CustomButton from '../customButton/CustomButton'
->>>>>>> f9340585653bc46083615c3bb5b37f163b55e53d:src/components/EditProfile/EditProfile.jsx
+import Header from '../DashboardHeader/DashboardHeader'
+import { MdDashboard } from "react-icons/md";
 import './EditProfile.css'
+import {Link} from 'react-router-dom';
 function EditProfile() {
   return (
     <div className="contEdit">
-        <Header dash = {<MdDashboard />}/>
+        <Header dash = {<Link to="/dashboard" className="links"><MdDashboard /></Link>}/>
         <div className='econt'>
             <div className="econtent"><br />
                 <h2>New Profile Information</h2>
@@ -32,9 +28,11 @@ function EditProfile() {
                 <div className="custinput">
                     <CustomInput border = '.6px solid black' width = '85%' height = '5px' type = 'password'/>
                 </div>
-                <div className="custbtn">
-                    <CustomButton title = 'Confirm Changes' width = '65%' font-size = '1.09rem' font-weight = 'bold' box-shadow = 'none' border-radius = '15px'/>
-                </div>
+                <Link to="/profile" className="links">
+                    <div className="custbtn">
+                        <CustomButton title = 'Confirm Changes' width = '65%' font-size = '1.09rem' font-weight = 'bold' box-shadow = 'none' border-radius = '15px'/>
+                    </div>
+                </Link>
             </div>
         </div>
     </div>
