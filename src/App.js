@@ -21,6 +21,7 @@ function App() {
           <Route path="/register" element={<RegisterPage />} />
           <Route path="/confirm" element={<WaitingPage />} />
           <Route path="*" element={<h1>404</h1>} />
+        
         </Routes>
       </Router>
     </div>
