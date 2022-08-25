@@ -2,13 +2,14 @@ import React from 'react'
 import CustomInput from '../customInput/CustomInput'
 import CustomButton from '../customButton/CustomButton'
 import Header from '../DashboardHeader/DashboardHeader'
-import { MdDashboard } from "react-icons/md";
+// import { MdDashboard } from "react-icons/md";
+import DashboardIcon from '../DashboardIcon/DashboardIcon'
 import './EditProfile.css'
 import {Link} from 'react-router-dom';
 function EditProfile() {
   return (
     <div className="contEdit">
-        <Header dash = {<Link to="/dashboard" className="links"><MdDashboard /></Link>}/>
+        <Header dash = {<Link to="/dashboard" className="links"><DashboardIcon /></Link>}/>
         <div className='econt'>
             <div className="econtent"><br />
                 <h2>New Profile Information</h2>
