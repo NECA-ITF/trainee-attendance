@@ -1,9 +1,9 @@
 import './App.css';
-import HomePage from './pages/homepage/Homepage'
+import EditProfile from './components/profilePage/EditProfile/EditProfile'
 function App() {
   return (
     <div className="App">
-      <HomePage/>
+      <EditProfile />
     </div>
   );
 }

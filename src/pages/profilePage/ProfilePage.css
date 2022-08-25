@@ -8,7 +8,7 @@
 } */
  
 #profileFlex{
-    background: rgb(218, 218, 218);
+    background: rgba(231, 226, 226, 0.359);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -22,10 +22,13 @@
     box-shadow:2px 3px 5px 0 grey, -3px 1px 5px 0 grey;
     /* padding: 1rem; */
     font-family: tahoma;
-    width: 30%;
+    width: 45%;
     height: fit-content;
     margin: 0px auto;
     background: white;
+}
+.iconright #alignSelf #eprofile{
+    display: none;
 }
 /* .contFlex{
     display: flex;
