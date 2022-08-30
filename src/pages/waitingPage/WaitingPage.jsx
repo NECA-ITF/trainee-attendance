@@ -20,7 +20,7 @@ function WaitingPage() {
                 </span>
                 <Link to="/login" className="links">
                   <div className="waiting-button">
-                      <CustomButton title='Login' borderRadius={0} width={250} fontSize={20} backgroundColor= 'lightred' boxShadow='0 6.0339 6.0339 #FFCCCC'/>
+                      <CustomButton title='Login' style={{borderRadius:"0px", width:"250px", fontSize:"20px", backgroundColor: 'lightred', boxShadow:'0 6.0339 6.0339 #FFCCCC'}}/>
                   </div>
                 </Link>
 

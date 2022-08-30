@@ -15,23 +15,23 @@ function EditProfile() {
                 <h2>New Profile Information</h2>
                 <h4>Name</h4>
                 <div className="custinput">
-                    <CustomInput border = '.6px solid black' width = '85%' height = '5px'/>
+                    <CustomInput style={{border: '.6px solid black', width: '85%', height:'5px'}}/>
                 </div>
                 <h4>Email</h4>
                 <div className="custinput">
-                    <CustomInput border = '.6px solid black' width = '85%' height = '5px'/>
+                    <CustomInput style={{border: '.6px solid black', width: '85%', height:'5px'}}/>
                 </div>
                 <h4>Password</h4>
                 <div className="custinput">
-                    <CustomInput border = '.6px solid black' width = '85%' height = '5px'/>
+                    <CustomInput style={{border: '.6px solid black', width: '85%', height:'5px'}} type = 'password'/>
                 </div>
                 <h4>Confirm Password</h4>
                 <div className="custinput">
-                    <CustomInput border = '.6px solid black' width = '85%' height = '5px' type = 'password'/>
+                    <CustomInput style={{border: '.6px solid black', width: '85%', height:'5px'}} type = 'password'/>
                 </div>
                 <Link to="/profile" className="links">
                     <div className="custbtn">
-                        <CustomButton title = 'Confirm Changes' width = '65%' font-size = '1.09rem' font-weight = 'bold' box-shadow = 'none' border-radius = '15px'/>
+                        <CustomButton title = 'Confirm Changes' style={{width: '65%', fontSize:'1.09rem', fontWeight: 'bold', boxShadow: 'none', borderRadius: '15px'}}/>
                     </div>
                 </Link>
             </div>

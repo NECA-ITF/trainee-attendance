@@ -9,6 +9,7 @@ import logo from '../../assets/images/itf-logo.jpg'
 import { Link } from 'react-router-dom';
 
 function LoginPage() {
+    
     return (
         <div className='login-page'>
             <div className='login-page-left'>
@@ -26,20 +27,20 @@ function LoginPage() {
                     <form className='login-page-form'>
                         <div className='email-input'>
                             <img src={emailsvg} alt ='emailsvg' />
-                            <CustomInput border = 'none' placeholder={'Email Address or Number'} type="text"/>
+                            <CustomInput style={{border: 'none'}} placeholder={'Email Address or Number'} type="text"/>
                         </div>
                         <div className='pass-input'>
                             <img src={passwordsvg} alt ='emailsvg' />
-                            <CustomInput border = 'none'  placeholder={'Password'} type="password"/>
+                            <CustomInput style={{border: 'none'}}  placeholder={'Password'} type="password"/>
                         </div>
                         <Link className="links" to="/dashboard">
-                            <CustomButton title={'Log In'}  width = '400px' borderRadius = '0px' fontSize = '1.2rem' fontWeight = 'bold'/>
+                            <CustomButton title={'Log In'}  style={{ width:'400px', borderRadius: '0px', fontSize: '1.2rem', fontWeight: 'bold'}}/>
                         </Link>
                         <div className='forgotpass'>
                             <h3>Forgotten password ?</h3>
                         </div>
                         <Link className="links" to="/register">
-                            <CustomButton title={'Create New Account'} boxShadow = 'none' width = '300px' borderRadius = '15px' backgroundColor = 'rgba(11, 133, 11, 0.55)' fontSize = '1.2rem' fontWeight = 'bold' marginBottom = '10px' />
+                            <CustomButton title={'Create New Account'} style={{boxShadow:'none', width: '300px', borderRadius:'15px', backgroundColor:'rgba(11, 133, 11, 0.55)', fontSize: '1.2rem', fontWeight: 'bold', marginBottom:'10px'}} />
                         </Link>
                     </form>
                 </div>

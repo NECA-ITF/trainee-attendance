@@ -25,11 +25,11 @@ function RegisterPage() {
               </div>
               
               <div className='custom-input'>
-                <CustomInput placeholder="Email Address" className="input" backgroundColor='#eeeeee' outline='none'/>
-                <CustomInput placeholder="Phone Number" className="input" backgroundColor='#eeeeee' outline='none'/>
-                <CustomInput placeholder="Full Name" backgroundColor='#eeeeee' outline='none' className="input"/>
-                <CustomInput type="password" placeholder="Password" backgroundColor='#eeeeee' outline='none' className="input"/>
-                <CustomInput type="password" placeholder="Confirm Password" backgroundColor='#eeeeee' outline='none' className="input"/>
+                <CustomInput placeholder="Email Address" className="input" style={{backgroundColor:'#eeeeee', outline:'none'}}/>
+                <CustomInput placeholder="Phone Number" className="input" style={{backgroundColor:'#eeeeee', outline:'none'}}/>
+                <CustomInput placeholder="Full Name" style={{backgroundColor:'#eeeeee', outline:'none'}} className="input"/>
+                <CustomInput type="password" placeholder="Password" style={{backgroundColor:'#eeeeee', outline:'none'}} className="input"/>
+                <CustomInput type="password" placeholder="Confirm Password" style={{backgroundColor:'#eeeeee', outline:'none'}} className="input"/>
               </div>
               <div className='gen'>
                   <h3>Gender</h3>
@@ -39,7 +39,7 @@ function RegisterPage() {
                 </div>
               </div>
               <Link to="/confirm" className='custom-button links'>
-                <CustomButton title='Sign Up' borderRadius={2} width={'65%'} className="button" />
+                <CustomButton title='Sign Up' style={{borderRadius:"2px", width:'65%'}} className="button" />
               </Link>
               
               <h4>Have an account? <Link className="links" to="/login"><span className="login">Log in</span></Link></h4>

@@ -24,12 +24,12 @@ export default class ProfileDetails extends Component {
           </div>
           <Link to="/profile/edit" className="links">
             <div className='contBtn'>
-              <CustomButton title='Edit My Profile' width='93%' height = '65%' margin-bottom ='1rem'/>          
+              <CustomButton title='Edit My Profile' style={{width:'93%', height:'65%', marginBottom:'1rem'}}/>          
             </div>
           </Link>
           <Link to="/profile/edit" className="links">
             <div className='contBtn1'>
-              <CustomButton title='Edit My Profile' width='55%' height = '1%' margin-bottom ='1rem'/>          
+              <CustomButton title='Edit My Profile' style={{width:'55%', height: '1%', marginBottom:'1rem'}}/>          
             </div>
           </Link>
         </div>

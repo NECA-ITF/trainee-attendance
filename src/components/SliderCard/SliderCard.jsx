@@ -11,7 +11,7 @@ function SliderCard() {
                     <h1>80%</h1>
                 </div>
                 <p className="card-stats">Attendance start</p>
-                <CustomButton title={'Confirm'} backgroundColor = '#4C956C' margin = '10px 0'  boxShadow = 'none'/>
+                <CustomButton title={'Confirm'} style={{backgroundColor: '#4C956C', margin:'10px 0',  boxShadow: 'none'}}/>
         </div>
   )
 }
